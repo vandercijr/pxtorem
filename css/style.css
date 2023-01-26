@@ -1,0 +1,28 @@
+body {
+  background: rgb(var(--bege));
+  height: 100vh;
+}
+
+.main {
+  height: 100%;
+}
+
+.header {
+  height: 25% !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  height: 10%;
+}
+
+.pxreminput {
+  font-size: 2rem;
+}
+
+.pxremlabel {
+  font-size: 2.2rem;
+}

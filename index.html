@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PX to Rem</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <link href="img/favicon.ico" rel="icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="col-lg-12 main">
+      <div class="col-lg-12 header">
+        <h1 class="p-2 text-center">Dumb Face</h1>
+        <img
+          src="./img/mclovin.png"
+          class="mx-auto d-block"
+          style="width: 200px; height: auto"
+        />
+      </div>
+
+      <div class="h-50 col-lg-12">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-lg-12 col-sm-12 align-self-center text-center">
+              <h1 class="rotas-fg-bege animated fadeInUp">
+                PIXEL to REM converter
+              </h1>
+            </div>
+          </div>
+          <div class="row justify-content-center py-5">
+            <div
+              class="col-lg-3 col p-4 center-block text-center"
+              style="background-color: aquamarine"
+            >
+              <label for="root" class="col-form-label text-center pxremlabel"
+                >Root font size</label
+              >
+              <div class="col-lg-6 m-auto">
+                <input
+                  type="text"
+                  class="form-control text-center pxreminput"
+                  id="root"
+                  value="16"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center py-5">
+            <div
+              class="col-lg-3 col p-4 center-block text-center"
+              style="background-color: aquamarine"
+            >
+              <label for="px" class="col-form-label text-center pxremlabel"
+                >Pixels</label
+              >
+              <div class="col-lg-6 m-auto">
+                <input
+                  type="text"
+                  class="form-control text-center pxreminput"
+                  id="px"
+                  value="1"
+                />
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col p-4 center-block text-center"
+              style="background-color: aquamarine"
+            >
+              <label for="rem" class="col-form-label text-center pxremlabel"
+                >REM</label
+              >
+              <div class="col-lg-6 m-auto">
+                <input
+                  type="text"
+                  class="form-control text-center pxreminput"
+                  id="rem"
+                  value="1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 footer"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
