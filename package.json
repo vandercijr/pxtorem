@@ -1,0 +1,23 @@
+{
+  "name": "pxtorem",
+  "version": "1.0.0",
+  "description": "Dumb face px to rem converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandercijr/pxtorem.git"
+  },
+  "author": "Vanderci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandercijr/pxtorem/issues"
+  },
+  "homepage": "https://github.com/vandercijr/pxtorem#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
